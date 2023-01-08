@@ -3,6 +3,11 @@ import numpy as np
 import re
 import sys
 
+# usage:
+# call the script with rewards-details excel file as first argument and remarks to be included as second argument
+
+# example: python rewards.py Q1-NMNH-DETAIL.xlsb "Q1FY22-23"
+
 # receive input file as argument of script
 file_name = sys.argv[1]
 file_type = file_name.split(".")[-1]
